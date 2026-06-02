@@ -1,1 +1,49 @@
-<mxGraphModel><root><mxCell id="0"/><mxCell id="1" parent="0"/></root></mxGraphModel>
+<mxfile host="app.diagrams.net">
+  <diagram id="tW2Wogd0XWlnVEJDNSVc" name="Page-1">
+    <mxGraphModel dx="1202" dy="664" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="ox6FDPHDt5aEmLPQ7bSM-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Case API" vertex="1">
+          <mxGeometry height="60" width="120" x="365" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="ox6FDPHDt5aEmLPQ7bSM-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Case Creator" vertex="1">
+          <mxGeometry height="60" width="120" x="365" y="310" as="geometry" />
+        </mxCell>
+        <mxCell id="ox6FDPHDt5aEmLPQ7bSM-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Case Repository" vertex="1">
+          <mxGeometry height="60" width="120" x="365" y="450" as="geometry" />
+        </mxCell>
+        <mxCell id="ox6FDPHDt5aEmLPQ7bSM-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Workflow Manager" vertex="1">
+          <mxGeometry height="60" width="120" x="365" y="590" as="geometry" />
+        </mxCell>
+        <mxCell id="ox6FDPHDt5aEmLPQ7bSM-5" parent="1" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.6;dx=20;direction=south;notch=0;" value="" vertex="1">
+          <mxGeometry height="80" width="40" x="405" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="ox6FDPHDt5aEmLPQ7bSM-7" parent="1" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.6;dx=20;direction=south;notch=0;" value="" vertex="1">
+          <mxGeometry height="80" width="40" x="405" y="370" as="geometry" />
+        </mxCell>
+        <mxCell id="ox6FDPHDt5aEmLPQ7bSM-8" parent="1" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.6;dx=20;direction=south;notch=0;" value="" vertex="1">
+          <mxGeometry height="80" width="40" x="405" y="510" as="geometry" />
+        </mxCell>
+        <mxCell id="ox6FDPHDt5aEmLPQ7bSM-9" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Notification Trigger" vertex="1">
+          <mxGeometry height="60" width="120" x="485" y="730" as="geometry" />
+        </mxCell>
+        <mxCell id="ox6FDPHDt5aEmLPQ7bSM-10" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Investigation Tracker" vertex="1">
+          <mxGeometry height="60" width="120" x="245" y="730" as="geometry" />
+        </mxCell>
+        <mxCell id="ox6FDPHDt5aEmLPQ7bSM-12" edge="1" parent="1" source="ox6FDPHDt5aEmLPQ7bSM-4" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="ox6FDPHDt5aEmLPQ7bSM-10" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="400" y="870" as="sourcePoint" />
+            <mxPoint x="450" y="820" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ox6FDPHDt5aEmLPQ7bSM-13" edge="1" parent="1" source="ox6FDPHDt5aEmLPQ7bSM-4" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="ox6FDPHDt5aEmLPQ7bSM-9" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="420" y="650" as="sourcePoint" />
+            <mxPoint x="450" y="820" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
