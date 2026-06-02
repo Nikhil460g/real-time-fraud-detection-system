@@ -130,16 +130,17 @@ Store and retrieve operational data.
 
 ## Technology Stack
 
-| Component | Technology |
-|------------|------------|
-| API Gateway | Spring Cloud Gateway (with Resilience4j Rate Limiting & Circuit Breaking) |
-| Microservices | Spring Boot 3.x (Java 21 LTS, Virtual Threads / Project Loom for high concurrency) |
-| Event Streaming | Apache Kafka (Distributed Cluster with Schema Registry & KRaft Mode) |
-| Database | PostgreSQL (with TimescaleDB extension for time-series metrics & connection pooling) |
-| Container Platform | Docker (Multi-stage minimal distroless base images for security hardening) |
-| Orchestration | Kubernetes (EKS/GKE with Horizontal Pod Autoscaling & GitOps via ArgoCD) |
-| Monitoring | Prometheus (Metrics Ingestion) & Grafana (Distributed Dashboards with Loki/Tempo) |
-| Security | OAuth 2.0 / OpenID Connect (Keycloak Identity Provider) & Stateless Asymmetric JWTs |
+| Service / Component | Technology | Purpose |
+|---------------------|------------|---------|
+| Transaction Ingestion Service | PostgreSQL | Financial transaction storage with ACID compliance |
+| Customer Service | PostgreSQL | Customer profile management |
+| Rule Engine Service | Redis | Fast access to fraud rules and rate limiting |
+| Machine Learning Feature Store | Redis | Low-latency feature retrieval |
+| Graph Analysis Service | Neo4j | Relationship analysis and fraud ring detection |
+| Risk Scoring Service | PostgreSQL | Risk score persistence and auditability |
+| Audit Service | PostgreSQL | Compliance records and audit logs |
+| Analytics Platform | TimescaleDB | Time-series transaction analytics |
+| Log Management Platform | Elasticsearch | Log indexing and full-text search |
 
 ## Conclusion
 
