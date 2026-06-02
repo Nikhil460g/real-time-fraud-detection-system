@@ -1,0 +1,49 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Page-1" id="CRVvXn3UXlfScCJjCR2_">
+    <mxGraphModel dx="1460" dy="1906" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="fu1bvNhGftMHwRFfUX-P-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Prediction API" vertex="1">
+          <mxGeometry height="60" width="120" x="320" y="-900" as="geometry" />
+        </mxCell>
+        <mxCell id="fu1bvNhGftMHwRFfUX-P-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Feature Extractor" vertex="1">
+          <mxGeometry height="60" width="120" x="320" y="-760" as="geometry" />
+        </mxCell>
+        <mxCell id="fu1bvNhGftMHwRFfUX-P-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Prediction Publisher" vertex="1">
+          <mxGeometry height="60" width="120" x="425" y="-330" as="geometry" />
+        </mxCell>
+        <mxCell id="fu1bvNhGftMHwRFfUX-P-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Model Repository" vertex="1">
+          <mxGeometry height="60" width="120" x="420" y="-470" as="geometry" />
+        </mxCell>
+        <mxCell id="fu1bvNhGftMHwRFfUX-P-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Model Inference Engine" vertex="1">
+          <mxGeometry height="60" width="120" x="420" y="-610" as="geometry" />
+        </mxCell>
+        <mxCell id="fu1bvNhGftMHwRFfUX-P-6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Feature Store" vertex="1">
+          <mxGeometry height="60" width="120" x="220" y="-610" as="geometry" />
+        </mxCell>
+        <mxCell id="fu1bvNhGftMHwRFfUX-P-7" parent="1" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.6;dx=20;direction=south;notch=0;" value="" vertex="1">
+          <mxGeometry height="80" width="40" x="360" y="-840" as="geometry" />
+        </mxCell>
+        <mxCell id="fu1bvNhGftMHwRFfUX-P-11" parent="1" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.6;dx=20;direction=south;notch=0;" value="" vertex="1">
+          <mxGeometry height="80" width="40" x="460" y="-410" as="geometry" />
+        </mxCell>
+        <mxCell id="fu1bvNhGftMHwRFfUX-P-12" parent="1" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.6;dx=20;direction=south;notch=0;" value="" vertex="1">
+          <mxGeometry height="80" width="40" x="460" y="-550" as="geometry" />
+        </mxCell>
+        <mxCell id="fu1bvNhGftMHwRFfUX-P-13" edge="1" parent="1" source="fu1bvNhGftMHwRFfUX-P-2" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endSize=13;" target="fu1bvNhGftMHwRFfUX-P-6" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="410" y="-650" as="sourcePoint" />
+            <mxPoint x="460" y="-700" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fu1bvNhGftMHwRFfUX-P-14" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endSize=13;" target="fu1bvNhGftMHwRFfUX-P-5" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="380" y="-700" as="sourcePoint" />
+            <mxPoint x="460" y="-700" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

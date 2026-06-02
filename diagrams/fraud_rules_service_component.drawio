@@ -1,0 +1,46 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Page-1" id="G7eH_gBp0q0uAckZ6szv">
+    <mxGraphModel dx="973" dy="537" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="gqfvB2mAWALjW-IKBMjj-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Rule Repository" vertex="1">
+          <mxGeometry height="60" width="120" x="230" y="471" as="geometry" />
+        </mxCell>
+        <mxCell id="gqfvB2mAWALjW-IKBMjj-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Decision Generator" vertex="1">
+          <mxGeometry height="60" width="120" x="450" y="471" as="geometry" />
+        </mxCell>
+        <mxCell id="gqfvB2mAWALjW-IKBMjj-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Audit Publisher" vertex="1">
+          <mxGeometry height="60" width="120" x="450" y="600" as="geometry" />
+        </mxCell>
+        <mxCell id="gqfvB2mAWALjW-IKBMjj-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Rule Evaluation Engine" vertex="1">
+          <mxGeometry height="60" width="120" x="340" y="321" as="geometry" />
+        </mxCell>
+        <mxCell id="gqfvB2mAWALjW-IKBMjj-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="API Controller" vertex="1">
+          <mxGeometry height="60" width="120" x="340" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="gqfvB2mAWALjW-IKBMjj-7" edge="1" parent="1" source="gqfvB2mAWALjW-IKBMjj-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="gqfvB2mAWALjW-IKBMjj-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gqfvB2mAWALjW-IKBMjj-8" parent="1" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.6;dx=20;direction=south;notch=0;" value="" vertex="1">
+          <mxGeometry height="70" width="30" x="495" y="531" as="geometry" />
+        </mxCell>
+        <mxCell id="gqfvB2mAWALjW-IKBMjj-10" parent="1" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.6;dx=20;direction=south;notch=0;strokeWidth=1;" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="71" width="45" x="377.5" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="gqfvB2mAWALjW-IKBMjj-17" edge="1" parent="1" source="gqfvB2mAWALjW-IKBMjj-4" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.45;exitY=1.022;exitDx=0;exitDy=0;exitPerimeter=0;strokeWidth=1;arcSize=19;startSize=20;endSize=16;" target="gqfvB2mAWALjW-IKBMjj-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="400" y="390" as="sourcePoint" />
+            <mxPoint x="350" y="460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gqfvB2mAWALjW-IKBMjj-22" edge="1" parent="1" source="gqfvB2mAWALjW-IKBMjj-4" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeWidth=1;arcSize=19;startSize=20;endSize=16;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="604" y="382" as="sourcePoint" />
+            <mxPoint x="500" y="471" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
