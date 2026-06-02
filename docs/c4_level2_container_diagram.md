@@ -130,25 +130,16 @@ Store and retrieve operational data.
 
 ## Technology Stack
 
-┌──────────────────────┬──────────────────────────────────────────────────────────────────────────────────────────────────────────────┐
-│ COMPONENT            │ TECHNOLOGY                                                                                                   │
-├──────────────────────┼──────────────────────────────────────────────────────────────────────────────────────────────────────────────┤
-│ API Gateway          │ Spring Cloud Gateway (with Resilience4j Rate Limiting & Circuit Breaking)                                    │
-├──────────────────────┼──────────────────────────────────────────────────────────────────────────────────────────────────────────────┤
-│ Microservices        │ Spring Boot 3.x (Java 21 LTS, Virtual Threads / Project Loom for high concurrency)                           │
-├──────────────────────┼──────────────────────────────────────────────────────────────────────────────────────────────────────────────┤
-│ Event Streaming      │ Apache Kafka (Distributed Cluster with Schema Registry & KRaft Mode)                                         │
-├──────────────────────┼──────────────────────────────────────────────────────────────────────────────────────────────────────────────┤
-│ Database             │ PostgreSQL (with TimescaleDB extension for time-series metrics & connection pooling)                         │
-├──────────────────────┼──────────────────────────────────────────────────────────────────────────────────────────────────────────────┤
-│ Container Platform   │ Docker (Multi-stage minimal distroless base images for security hardening)                                   │
-├──────────────────────┼──────────────────────────────────────────────────────────────────────────────────────────────────────────────┤
-│ Orchestration        │ Kubernetes (EKS/GKE with Horizontal Pod Autoscaling & GitOps via ArgoCD)                                     │
-├──────────────────────┼──────────────────────────────────────────────────────────────────────────────────────────────────────────────┤
-│ Monitoring           │ Prometheus (Metrics Ingestion) & Grafana (Distributed Dashboards with Loki/Tempo)                            │
-├──────────────────────┼──────────────────────────────────────────────────────────────────────────────────────────────────────────────┤
-│ Security             │ OAuth 2.0 / OpenID Connect (Keycloak Identity Provider) & Stateless Asymmetric JWTs                          │
-└──────────────────────┴──────────────────────────────────────────────────────────────────────────────────────────────────────────────┘
+| Component | Technology |
+|------------|------------|
+| API Gateway | Spring Cloud Gateway (with Resilience4j Rate Limiting & Circuit Breaking) |
+| Microservices | Spring Boot 3.x (Java 21 LTS, Virtual Threads / Project Loom for high concurrency) |
+| Event Streaming | Apache Kafka (Distributed Cluster with Schema Registry & KRaft Mode) |
+| Database | PostgreSQL (with TimescaleDB extension for time-series metrics & connection pooling) |
+| Container Platform | Docker (Multi-stage minimal distroless base images for security hardening) |
+| Orchestration | Kubernetes (EKS/GKE with Horizontal Pod Autoscaling & GitOps via ArgoCD) |
+| Monitoring | Prometheus (Metrics Ingestion) & Grafana (Distributed Dashboards with Loki/Tempo) |
+| Security | OAuth 2.0 / OpenID Connect (Keycloak Identity Provider) & Stateless Asymmetric JWTs |
 
 ## Conclusion
 
