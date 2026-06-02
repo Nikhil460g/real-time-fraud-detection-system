@@ -5,28 +5,18 @@
 The Real-Time Fraud Detection Platform adopts a polyglot persistence strategy. Different data storage technologies are selected based on the specific requirements of each service. This approach improves scalability, performance, reliability, and maintainability.
 
 ## Database Selection Strategy
-    
-┌────────────────────────────────┬───────────────┬────────────────────────────────────────────────────┐
-│ SERVICE / COMPONENT            │ TECHNOLOGY    │ PURPOSE                                            │
-├────────────────────────────────┼───────────────┼────────────────────────────────────────────────────┤
-│ Transaction Ingestion Service  │ PostgreSQL    │ Financial transaction storage with ACID compliance │
-├────────────────────────────────┼───────────────┼────────────────────────────────────────────────────┤
-│ Customer Service               │ PostgreSQL    │ Customer profile management                        │
-├────────────────────────────────┼───────────────┼────────────────────────────────────────────────────┤
-│ Rule Engine Service            │ Redis         │ Fast access to fraud rules and rate limiting       │
-├────────────────────────────────┼───────────────┼────────────────────────────────────────────────────┤
-│ Machine Learning Feature Store │ Redis         │ Low-latency feature retrieval                      │
-├────────────────────────────────┼───────────────┼────────────────────────────────────────────────────┤
-│ Graph Analysis Service         │ Neo4j         │ Relationship analysis and fraud ring detection     │
-├────────────────────────────────┼───────────────┼────────────────────────────────────────────────────┤
-│ Risk Scoring Service           │ PostgreSQL    │ Risk score persistence and auditability            │
-├────────────────────────────────┼───────────────┼────────────────────────────────────────────────────┤
-│ Audit Service                  │ PostgreSQL    │ Compliance records and audit logs                  │
-├────────────────────────────────┼───────────────┼────────────────────────────────────────────────────┤
-│ Analytics Platform             │ TimescaleDB   │ Time-series transaction analytics                  │
-├────────────────────────────────┼───────────────┼────────────────────────────────────────────────────┤
-│ Log Management Platform        │ Elasticsearch │ Log indexing and full-text search                  │
-└────────────────────────────────┴───────────────┴────────────────────────────────────────────────────┘
+
+| Service / Component | Technology | Purpose |
+|---------------------|------------|---------|
+| Transaction Ingestion Service | PostgreSQL | Financial transaction storage with ACID compliance |
+| Customer Service | PostgreSQL | Customer profile management |
+| Rule Engine Service | Redis | Fast access to fraud rules and rate limiting |
+| Machine Learning Feature Store | Redis | Low-latency feature retrieval |
+| Graph Analysis Service | Neo4j | Relationship analysis and fraud ring detection |
+| Risk Scoring Service | PostgreSQL | Risk score persistence and auditability |
+| Audit Service | PostgreSQL | Compliance records and audit logs |
+| Analytics Platform | TimescaleDB | Time-series transaction analytics |
+| Log Management Platform | Elasticsearch | Log indexing and full-text search |
 
 ## Technology Justification
 
