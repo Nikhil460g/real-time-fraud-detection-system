@@ -1,0 +1,7 @@
+diagrams
+docs
+files.txt
+README.md
+reports
+scr
+screenshots
